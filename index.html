@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>For You ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="hearts"></div>
+<div id="start">
+<h1 id="welcome"></h1>
+<p>I made something for you...</p>
+<button onclick="startApp()">Open</button>
+</div>
+
+<div id="main" class="hidden">
+<h2 id="message"></h2>
+
+<button id="nextBtn" onclick="nextMessage()">Next</button>
+
+<button id="finalBtn" class="hidden" onclick="showFinal()">
+Open Final Surprise ❤️
+</button>
+
+</div>
+<audio id="bgmusic" src="music.mp3"></audio>
+<script src="script.js"></script>
+
+</body>
+</html>
